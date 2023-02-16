@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leave page</title>
+    <style>
+        body {
+           
+           background-size: cover;
+           background-repeat: no-repeat;
+           background-color: rgb(204, 239, 235);
+           
+       }
+
+        .logo{
+        width: 100px; 
+        margin-left: 5px;
+              
+       }
+       
+       h2 {
+            margin-left: 500px;
+            margin-top: -140px;
+            color: red;
+            font-size: 35px;
+            
+            
+           
+
+        }
+        
+        .left {
+            margin-top: 100px;
+            margin-left: 20px;
+            margin-bottom: 65px;
+            
+        }
+
+        .mid {
+            margin-top: -90px;
+            margin-left: 500px;
+            margin-bottom: 45px;
+        }
+
+        .right {
+            margin-top: -70px;
+            margin-left: 1020px;
+            margin-bottom: 35px;
+        }
+
+        .left1 {
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+
+        .mid1 {
+            margin-top: -20px;
+            margin-left: 500px;
+        }
+
+        .right1 {
+            margin-left: 1020px;
+            margin-top: -20px;
+        }
+
+        .left2 {
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+
+        .mid2 {
+            margin-left: 500px;
+            margin-top: -20px;
+        }
+
+        .right2 {
+            margin-left: 1020px;
+            margin-top: -10px;
+        }
+
+        .left3{
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+
+        .left4{
+            margin-top: 40px;
+            margin-left: 20px;
+        }
+        .mid3{
+            margin-left: 700px;
+            margin-top: 20px;
+            font-size: 25px;
+            
+        }
+         form{
+           
+            font-size: 25px;
+            color: rgb(5, 5, 5);
+            
+            margin-top: 10px;
+            
+            
+            
+
+            
+         }
+         p{
+            margin-top: -9px;
+            text-align: center;
+            padding: -5px;
+            color: red;
+            font-size: 35px;
+            margin-bottom: -62px;
+            background-color: rgb(164, 236, 212);
+            
+         }
+         .main{
+            margin-top: 100px;
+            
+         }
+         .pic{
+            margin-left: -400px;
+            margin-right: 900px;
+            margin-top: 10px;
+         }
+         .bt1 {
+            font-size: 20px;
+            border-radius: 8px;
+         }
+         .bt1:hover{
+            background-color: rgb(255, 145, 0);
+         }
+         .bt2{
+            font-size: 20px;
+            border-radius: 8px;
+         }
+         .bt2:hover{
+            background-color: rgb(255, 145, 0);
+         }
+         .dept{
+            font-size: 20px;
+         }
+         .leave{
+            margin-top: 150px;
+            margin-left: 100px;
+            color: red;
+            text-decoration: underline;
+         }
+         
+         
+         
+        
+        
+
+       
+
+
+</style>
+</head>
+<body>
+    
+    
+    
+        
+        <div class="p">
+    <p ><img class="pic " src="bitlogo.jpg"><h2 >Birla Institute of Technology Mesra </h2></p>
+    </div>
+    <div class="leave"><h2><strong>Leave Application Form</strong> </h2></div>
+    <div class="main" >
+        
+    
+     <form action="backend.php">
+
+        <div class="left">
+            <label for="name">Name</label>
+            <input class="dept" type="text" name="myName" id="name" size="20" >
+        </div>
+
+        <div class="mid">
+            <label for="department">Department</label>
+            <select class="dept" name="mydept" id="department">
+                <option value="none" >Choose your department</option>
+                <option value="Management">Management</option>
+                <option value="Sciences"> Live Science</option>
+                <option value="cse">CSE</option>
+                <option value="ece">ECE</option>
+                <option value="eee">EEE</option>
+                <option value="aniadnmul">Animation and multimedia</option>
+                <option value="bio">Bioengineering and biotechnology</option>
+                <option value="mech">Mechanical Discipline</option>
+                <option value="Adminstrative">Adminstrative Staff</option>
+                <option value="notteaching">Non teaching</option>
+            </select>
+
+        </div>
+
+
+
+        <div class="right">
+            <label for="designation ">Designation</label>
+            <select  class="dept"  name="myDesignation" id="designation">
+                <option value="none">choose your designation</option>
+                <option value="professor">Professor</option>
+                <option value="asst.prof">Asst.professor</option>
+                <option value="hod">HOD</option>
+                <option value="labasst">Lab Assistant</option>
+                <option value="asso">Associate Professor</option>
+                <option value="lect.">Lecturer</option>
+                <option value="nonteaching">none</option>
+            </select>
+        </div>
+
+
+
+        <div class="left1">
+            Email: <input class="dept"type="email" name="myEmail">
+        </div>
+
+
+
+        <div class="mid1">
+            Phone No: <input class="dept"type="text" name="myNumber">
+        </div>
+
+
+        <div class="right1">
+            Employee code:<input class="dept"type="Text" name="myCode"> 
+        </div>
+
+        <div class="left2">
+            <label for="typeofleave">Type of leave</label>
+            <select class="dept"name="myleave" id="type of leave">
+                <option value="none">choose your leave type</option>
+                <option value="el">EL</option>
+                <option value="pl">PL</option>
+                <option value="cl">CL</option>
+            </select>
+        </div>
+
+        <div class="mid2">
+            Number of days: <input class="dept" type="number" name="days">
+        </div>
+
+
+
+        <div class="right2">
+            From: <input  class="dept"type="date" name="fromDate"> To: <input class="dept"class="dept"type="date" name="toDate">
+        </div>
+        
+        <div class="left3">
+            Address while on leave: <input class="dept"type="text" name="myAddress">
+        </div>
+        
+        <div class="left4">
+            Reason to apply leave: <br> <textarea name="myText" class="dept"cols="70" rows="5"></textarea>
+        </div>
+
+        <div class="mid3">
+            <input class="bt1" type="submit"  value="Submit now">
+            <input class="bt2" type="reset" value="Reset now">
+        </div>
+
+    </form>
+    </div>
+
+
+   
+    
+</body>
+</html>
